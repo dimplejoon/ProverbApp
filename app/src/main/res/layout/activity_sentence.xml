@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SentenceActivity">
 
+    <ListView
+        android:id="@+id/sentenceListView"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/mochiypopone_regular"
+        android:text="Textarea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

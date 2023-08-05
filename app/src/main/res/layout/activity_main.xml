@@ -19,9 +19,10 @@
                     app:layout_constraintEnd_toEndOf = "parent"/>
 
                 <TextView
+                    android:id="@+id/wiseSayingArea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ことわざ配置"
+                    android:text="ことわざが表示されるところです。"
                     android:fontFamily="@font/mochiypopone_regular"
                     android:gravity="center"
                     android:layout_margin="20dp"
